@@ -1,0 +1,18 @@
+ g1  = !  !!{x1,   x2| <x1,  x2>}
+ g2 = {v1,  v2| <v1,v2>} * ({x1  }+ {x2} )
+ print(! ! !! !g2)
+ delete (  g2)
+who
+  print(!! load (  gg.gc ) ^ (! g1 + {x2, x3|< x3,x2>} ) )  
+g2 = g1
+g3 = g2
+  who
+ reset
+ a = {}
+ print(!a)
+ print(!! !{  |})
+ who
+ b = ((a))
+ print (!!!b)
+ who
+ reset
